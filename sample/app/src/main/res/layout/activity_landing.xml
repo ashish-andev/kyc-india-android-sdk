@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingPrefix"
+    tools:context="co.hyperverge.hyperdocscombinedapp.Activities.LandingActivity">
+
+    <TextView
+        style="@style/TextViewMulticolore"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="HYPERVERGE DOCS"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_completed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fl_empty_state">
+        <TextView
+            style="@style/TextViewRobotoRegular"
+            android:layout_width="171.7dp"
+            android:layout_height="wrap_content"
+            android:text="Click image of your first Document"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="225.3dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="26.7sp"
+            android:textColor="@color/greyish_brown"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home_arrow"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="103dp"
+            android:layout_marginBottom="154.3dp"/>
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/dimmer_view"
+        android:onClick="dimmedBackgroundClicked"
+        android:background="#CCd7d7d7"
+        android:alpha="0"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        app:backgroundTint="@color/purple"
+        fab:menu_fab_size="normal"
+        fab:menu_showShadow="true"
+        fab:menu_shadowColor="#66000000"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="3dp"
+        fab:menu_colorNormal="#464494"
+        fab:menu_colorPressed="#464494"
+        fab:menu_colorRipple="#99FFFFFF"
+        fab:menu_animationDelayPerItem="50"
+        fab:menu_icon="@drawable/group_5"
+        fab:menu_buttonSpacing="5dp"
+        fab:menu_labels_margin="10dp"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_paddingTop="4dp"
+        fab:menu_labels_paddingRight="8dp"
+        fab:menu_labels_paddingBottom="4dp"
+        fab:menu_labels_paddingLeft="8dp"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_textColor="#FFFFFF"
+        fab:menu_labels_textSize="14sp"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_colorNormal="#333333"
+        fab:menu_labels_colorPressed="#444444"
+        fab:menu_labels_colorRipple="#66FFFFFF"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_position="left"
+        fab:menu_openDirection="up"
+        fab:menu_labels_style="@style/FABLabelStyle"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_labels_customFont="fonts/Multicolore.otf"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/subFabAadhaar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_aadhaar"
+            fab:fab_label="AADHAAR"
+            app:fab_colorNormal="#464494"
+            app:fab_colorPressed="#464494"
+            fab:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/subFabPan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_pan"
+            app:fab_colorNormal="#464494"
+            app:fab_colorPressed="#464494"
+            fab:fab_label="PAN"
+            android:scaleType="centerCrop"
+            fab:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/subFabPassport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fab_passport"
+            app:fab_colorNormal="#464494"
+            app:fab_colorPressed="#464494"
+            fab:fab_label="PASSPORT"
+            android:scaleType="centerCrop"
+            fab:fab_size="normal" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab_click"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:src="@drawable/group_5"-->
+        <!--app:backgroundTint="@color/purple"-->
+        <!--android:layout_gravity="bottom|right"-->
+        <!--android:layout_marginRight="24dp"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--/>-->
+
+
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.hyperverge.hyperdocscombinedapp">
+
+    <uses-feature android:name="android.hardware.camera2" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name="HyperDocsCombinedApp"
+        android:supportsRtl="true"
+        android:launchMode="singleTop"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.LandingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activities.ImagesActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a22f47a83f64d31364494ce12dc2b1bbfe403d18" />
+    </application>
+
+</manifest>

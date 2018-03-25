@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewRobotoRegular">
+        <item name="fontPath">fonts/Roboto_regular.ttf</item>
+    </style>
+
+    <style name="FABLabelStyle">
+        <item name="android:background">@drawable/fab_doc_type_text_background</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">14sp</item>
+        <!--<item name="android:maxLines">1</item>-->
+        <item name="android:ellipsize">end</item>
+        <item name="android:padding">7dp</item>
+    </style>
+
+    <style name="TextViewRobotoLight">
+        <item name="fontPath">fonts/Roboto-Light.ttf</item>
+    </style>
+
+    <style name="TextViewRobotoMedium">
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    </style>
+
+    <!-- Overriding styles given in HyperDocsSDK -->
+    <!--<style name="TextStyleHeading">-->
+        <!--<item name="fontPath">fonts/Multicolore.ttf</item>-->
+    <!--</style>-->
+
+</resources>

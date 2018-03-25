@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HyperDocs</string>
+
+    <!-- Overriding string values for HyperDocsSDK-->
+    <!--<string name="sdk_title_text">HYPERDOCS Override</string>-->
+
+    <!--<string name="instructions_text_passport">Place Passport page inside the box Override</string>-->
+    <!--<string name="instructions_text_pan">Place Pan Card inside the box Override</string>-->
+    <!--<string name="instructions_text_aadhaar">Place Aadhaar Card page inside the box Override</string>-->
+
+    <!--<string name="preview_header_text_front_pan">FRONT PAGE REVIEW PAN Override</string>-->
+    <!--<string name="preview_header_text_front_passport">FRONT PAGE REVIEW PASSPORT Override</string>-->
+    <!--<string name="preview_header_text_back_passport">BACK PAGE REVIEW PASSPORT Override</string>-->
+    <!--<string name="preview_header_text_front_aadhaar">FRONT PAGE REVIEW AADHAAR Override</string>-->
+    <!--<string name="preview_header_text_back_aadhaar">BACK PAGE REVIEW AADHAAR Override</string>-->
+
+    <!--<string name="step_front_text_pan">Front Page of PAN Override</string>-->
+    <!--<string name="step_front_text_passport">Front Page of Passport Override</string>-->
+    <!--<string name="step_back_text_passport">Back Page of Passport Override</string>-->
+    <!--<string name="step_front_text_aadhaar">Front Page of Aadhaar Override</string>-->
+    <!--<string name="step_back_text_aadhaar">Back Page of Aadhaar Override</string>-->
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="136dp">
+    <ImageView
+        android:id="@+id/iv_thumb"
+        android:layout_width="133.3dp"
+        android:layout_height="93.3dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="18.7dp"/>
+
+    <FrameLayout
+        android:id="@+id/ll_pan_detected"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="21.3dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_doc_type"
+                android:textColor="#464494"
+                android:text="PAN"
+                style="@style/TextViewMulticolore"
+                android:textSize="10.7sp"
+                android:background="@drawable/rounded_rect_doc_type"/>
+
+            <TextView
+                style="@style/TextViewRobotoMedium"
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:text="NIKHIL UDAY NAPHADE"
+                android:textColor="@color/greyish_brown_2"/>
+
+
+            <TextView
+                android:id="@+id/passport_no"
+                style="@style/TextViewRobotoRegular"
+                android:textColor="@color/dusty_lavender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13.3sp"
+                android:layout_marginTop="10.7dp"
+                android:text="K0267976"/>
+        </LinearLayout>
+
+        <!--<TextView
+            android:id="@+id/date"
+            android:layout_gravity="bottom"
+            style="@style/TextViewRobotoMedium"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="21.3dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dusty_lavender"
+            android:textSize="13.3sp"
+            android:text="28/10/1994"/>-->
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pan_failed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="21dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextViewRobotoRegular"
+            android:textColor="@color/dusty_lavender"
+            android:text="Couldn’t recognize Document"
+            />
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:background="@color/pinkish_grey"/>
+
+</FrameLayout>

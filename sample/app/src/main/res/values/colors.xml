@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_grey_blue">#2c3e50</color>
+    <color name="greyish_brown">#4a4a4a</color>
+    <color name="transparent">#00000000</color>
+    <color name="purple">#5c5392</color>
+    <color name="warm_grey">#9b9b9b</color>
+    <color name="ms_video_red">#fc272e </color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_trans">#001f1f1f</color>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#212e3b</color>
+
+    <color name="colorAccent">#5c5392</color>
+
+    <color name="customactivityoncrash_primary">#2c3e50</color>
+    <color name="customactivityoncrash_primary_dark">#212e3b</color>
+
+    <color name="text_dark">#ff444444</color>
+
+
+    <color name="app_dark_blue">#4083ff</color>
+
+    <color name="app_green">#00b200</color>
+
+    <color name="app_secondary">#263238</color>
+    <color name="black_text">#000000</color>
+
+
+    <color name="black_overlay">#e7252525</color>
+    <color name="gray_text_phone">#9B9B9B</color>
+    <color name="ms_likes_grey">#737373</color>
+    <color name="ms_dark_blue">#536980</color>
+    <color name="ms_progress_gray">#ececec</color>
+    <color name="ms_sent_green">#7ed321</color>
+    <color name="ms_dialog_blue">#4a90e2</color>
+    <color name="ms_dialog_blue_trans_10">#1A4a90e2</color>
+    <color name="ms_dialog_black_trans_60">#991f1f1f</color>
+    <color name="ms_video_white">#f7f7f7</color>
+    <color name="ms_video_grey">#696969</color>
+    <color name="ms_tutorial_purple">#f25b5392</color>
+
+
+    <!--MagicShare new ui colors-->
+    <color name="ms_stream_card_top">#f5f5f5</color>
+    <color name="ms_stream_card_bottom">#ffffff</color>
+    <color name="ms_stream_boundary_off">#c8c8c8</color>
+    <color name="ms_stream_boundary_on">#7ED321</color>
+    <color name="ms_contacts_text">#838383</color>
+
+    <color name="ms_white_trans">#80ffffff</color>
+    <color name="ms_dark_text_color">#4a4a4a</color>
+    <color name="ms_notify_group">#caf4ff</color>
+    <color name="ms_gray_text">#7f7f7f</color>
+    <color name="ms_trans_black">#CC000000</color>
+    <color name="ms_progress_pink">#dd326d</color>
+    <color name="ms_gray_border">#979797</color>
+    <color name="notification_pink">#dd326d</color>
+    <color name="ms_divider">#9b9b9b</color>
+    <color name="ms_yello_disabled">#f6f88c</color>
+    <color name="ms_yellow_delete">#f5f7a2</color>
+    <color name="ms_camera_pink">#df4c77</color>
+    <color name="ms_camera_blue">#00aff3</color>
+    <color name="ms_camera_green">#acf000</color>
+    <color name="ms_camera_yellow">#f8e600</color>
+
+    <color name="ms_contacts_div_gray">#CACACA</color>
+    <color name="ms_restore_gray">#767676</color>
+    <color name="ms_grey_connect_to_wifi">#c8c8c8</color>
+    <color name="ms_grey_magic_mode_progress">#f6f6f6</color>
+    <color name="ms_grey_dialog">#d8d8d8</color>
+    <color name="ms_placeholder_grey">#E2E1E1</color>
+    <color name="ms_overlay_black">#66000000</color>
+    <color name="ms_contact_refresh_fill">#f5f5f5</color>
+    <color name="ms_contact_refresh_border">#dadada</color>
+    <color name="ms_read_notification">#1d2240</color>
+
+
+    <color name="ms_stream_grid_blue">#9901579b</color>
+    <color name="ms_stream_grid_indigo">#99311b92</color>
+    <color name="ms_stream_grid_grey">#99263238</color>
+    <color name="ms_stream_grid_orange">#99ea6100</color>
+    <color name="ms_stream_grid_maroon">#998f0000</color>
+    <color name="ms_stream_grid_pink">#99d81b60</color>
+    <color name="ms_stream_inactive">#848d96</color>
+    <color name="ms_video_recording_salmon">#ff4e4e</color>
+
+
+    <color name="unread_comment_background">#a1edff</color>
+    <color name="read_comment_background">#f5f5f5</color>
+    <color name="ms_college_hint">#c7cac7</color>
+
+    <color name="private_bgcolor">#990f9d58</color>
+    <color name="warm_grey_3">#737373</color>
+    <color name="dark_sky_blue">#4a90e2</color>
+    <color name="pinkish_grey">#c8c8c8</color>
+    <color name="white_2">#f5f5f5</color>
+    <color name="warm_grey_4">#767676</color>
+    <color name="pinkish_grey_two">#d1d1d1</color>
+    <color name="warm_grey_2">#979797</color>
+    <color name="dusty_lavender">#acabac</color>
+    <color name="overlay_1">#9901579b</color>
+    <color name="black">#000000</color>
+    <color name="white_7">#d8d8d8</color>
+    <color name="white_8">#d2d2d2</color>
+
+    <color name="ms_white_fulltrans">#80ffffff</color>
+    <color name="ms_camera_pink_trans">#df4c77</color>
+
+    <!-- MagicShare Edit (Text Post) Colors -->
+    <color name="warm_grey_two">#979797</color>
+
+    <color name="ms_onboarding_pink">#d2326b</color>
+    <color name="ms_onboarding_indigo">#01579b</color>
+    <color name="ms_onboarding_violet">#311b92</color>
+    <color name="ms_onboarding_brown">#993831</color>
+    <color name="ms_onboarding_grey">#2c3e50</color>
+    <color name="ms_onboarding_blue">#315B99</color>
+
+    <integer-array name="cameracolors">
+        <item>@color/ms_camera_pink</item>
+        <item>@color/ms_camera_blue</item>
+        <item>@color/ms_camera_green</item>
+        <item>@color/ms_camera_yellow</item>
+
+    </integer-array>
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="greyish_brown_2">#4b4b4b</color>
+    <color name="grey">#cfcfcf</color>
+    <color name="transparent_overlay">#99000000</color>
+    <color name="white2">#efefef</color>
+
+    <!-- Overriding color values from HyperDocsSDK -->
+    <!--<color name="camera_button_color">#FF9911</color>-->
+    <!--<color name="top_bar_color">#00FFBB</color>-->
+    <!--&lt;!&ndash;<color name="bottom_bar_color">#00FFBB</color>&ndash;&gt;-->
+    <!--<color name="sdk_title_text_color">#b9b9b9</color>-->
+</resources>
