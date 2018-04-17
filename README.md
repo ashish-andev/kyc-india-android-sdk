@@ -4,10 +4,16 @@ HyperDocs is an Android SDK of HyperVerge's Artificial Intelligence Driven KYC D
 HyperDocs is deep-learning based mobile SDK for OCR that integrates into your existing mobile applications (banking, financial services, telecom, etc.) in order to capture the customer's KYC document (PAN Card, Aaadhar, and Passport) and extracts the details from them with greater than 99% accuracy.
 
 ### Prerequisites
-- Gradle Version: 3.3 (Recommended)
-- Tested with Gradle Plugin for Android Studio - version 2.3.1 
+- Gradle Version: 4.4 (Recommended)
 - minSdkVersion 14
-- targetSdkVersion 23
+- targetSdkVersion 27
+
+### Sample
+- Please refer to the sample app provided in the repo to get an understanding of the implementation process.
+- To run the app, clone/download the repo and open **sample** using latest version of Android Studio
+- Open project build.gradle and replace **aws_access_key** and **aws_secret_pass** with the credentials provided by HyperVerge
+- Open `Configs.java` and assign **appId** and **appKey** provided by HyperVerge to APP_ID and APP_KEY respectively
+- Build and run the app
 
 #### Integration Steps
 - Add the following set of lines to your `app/build.gradle`
@@ -20,7 +26,7 @@ android {
     }
 }
 dependencies {
-    compile('co.hyperverge:hyperdocssdk:1.0.14@aar', {
+    compile('co.hyperverge:hyperdocssdk:1.1.0@aar', {
         transitive = true
     })
 }
@@ -40,6 +46,7 @@ allprojects {
     }
 }
 ```
+where **aws_access_key** and **aws_secret_pass** will be given by HyperVerge
 - **Permissions**: The app requires the following permissions to work.
     - *Camera*
     - *Autofocus*
