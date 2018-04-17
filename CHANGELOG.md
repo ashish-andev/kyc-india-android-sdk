@@ -1,6 +1,6 @@
 #### Version 1.1.0
 ##### - Improvements:
-- Using Version 1.1 of the [KYC API](https://github.com/hyperverge/kyc-rest-api KYC Rest API)
+- Using Version 1.1 of the [KYC API](https://github.com/hyperverge/kyc-rest-api)
 - Crash resolution using confidence value
 - Returning of the confidence value for each extracted field
 - New and better UI for capture screen
