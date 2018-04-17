@@ -3,9 +3,10 @@
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.1.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -15,18 +16,12 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven {
-            url "s3://hyperdocs-sdk/android/snapshots"
-            credentials(AwsCredentials) {
-                accessKey "AKIAJ6QJD3BDZG3YKYPQ" //"AKIAISIBGDJYK5N63Z5A"
-                secretKey "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"//"5pbLzslBaxhGToa8+3kR7Q238zEpCeM6hPZ3Yc3/"
-            }
-        }
+        google()
         maven {
             url "s3://hyperdocs-sdk/android/releases"
             credentials(AwsCredentials) {
-                accessKey "AKIAJ6QJD3BDZG3YKYPQ" //"AKIAISIBGDJYK5N63Z5A"
-                secretKey "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"//"5pbLzslBaxhGToa8+3kR7Q238zEpCeM6hPZ3Yc3/"
+                accessKey "aws_access_key"
+                secretKey "aws_secret_pass"
             }
         }
     }

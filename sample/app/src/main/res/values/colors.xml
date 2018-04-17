@@ -135,6 +135,5 @@
     <!-- Overriding color values from HyperDocsSDK -->
     <!--<color name="camera_button_color">#FF9911</color>-->
     <!--<color name="top_bar_color">#00FFBB</color>-->
-    <!--&lt;!&ndash;<color name="bottom_bar_color">#00FFBB</color>&ndash;&gt;-->
     <!--<color name="sdk_title_text_color">#b9b9b9</color>-->
 </resources>
